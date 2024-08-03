@@ -1,0 +1,540 @@
+.dashboard {
+  text-align: center;
+  margin: 20px;
+}
+
+.counts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.count-today, .count-month {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.count-today h2, .count-month h2 {
+  margin-bottom: 10px;
+}
+
+.count-today p, .count-month p {
+  font-size: 2em;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(234, 242, 242);
+  
+}
+
+.register-title {
+  color: #ffffff; /* White color for better readability on blue background */
+  margin-bottom: 20px;
+  text-align: center;
+  color: black; /* Center the text horizontally */
+}
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* You can adjust this to fit your design */
+}
+
+.register-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(234, 242, 242);
+}
+
+.login-title {
+  color: #ffffff; /* White color for better readability on blue background */
+  margin-bottom: 20px;
+  text-align: center;
+  color: black; /* Center the text horizontally */
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  background-color: lightblue; /* You can adjust this to fit your design */
+}
+
+.login-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.forgot-password-link {
+  margin-top: 10px;
+  text-align: center; /* Center the forgot password link */
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.forgot-password-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.forgot-password-title {
+  color: #ffffff; /* White color for better readability on blue background */
+  margin-bottom: 20px;
+  text-align: center; 
+  color: black;/* Center the text horizontally */
+}
+
+.forgot-password-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* You can adjust this to fit your design */
+}
+
+.message,
+.error-message {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.forgot-password-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-password-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-password-button:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.reset-password-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+
+.reset-password-title {
+  color: #ffffff; /* White color for better readability on blue background */
+  margin-bottom: 20px;
+  text-align: center;
+  color: black; /* Center the text horizontally */
+}
+
+.reset-password-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* You can adjust this to fit your design */
+}
+
+.reset-password-message {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.reset-password-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reset-password-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset-password-button:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.count-today, .count-month {
+  background: #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.count-today {
+  border-left: 5px solid #4caf50;
+}
+
+.count-month {
+  border-left: 5px solid #2196f3;
+}
+
+.count-today h2, .count-month h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.count-today p, .count-month p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0 0;
+}
+
+.create-url-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-url-button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: lightblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f8f9fa;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.mt-4 {
+  margin-top: 2rem !important;
+}
+
+
