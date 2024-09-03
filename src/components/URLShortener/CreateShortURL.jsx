@@ -14,7 +14,7 @@ const CreateShortURL = () => {
         event.preventDefault();
         setError(null); // Clear previous errors
         try {
-            const response = await axios.post('http://localhost:5000/api/url/shorten', { longUrl });
+            const response = await axios.post('https://urlshortenerbe-14.onrender.com/api/url/shorten', { longUrl });
             setShortUrl(`https://shorturl.at/${response.data.shortUrl}`);
         } catch (err) {
             setError('Failed to create short URL');

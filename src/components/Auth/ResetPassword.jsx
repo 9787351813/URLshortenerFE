@@ -18,7 +18,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const response = await axios.post(`http://localhost:5000/api/auth/reset-password/${token}`, { password });
+      const response = await axios.post(`https://urlshortenerbe-14.onrender.com/api/auth/reset-password/${token}`, { password });
       setMessage('Password has been successfully reset. You can now log in with your new password.');
       setError('');
     } catch (error) {

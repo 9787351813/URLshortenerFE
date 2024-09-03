@@ -10,7 +10,7 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchCounts = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/url/counts');
+                const response = await axios.get('https://urlshortenerbe-14.onrender.com/api/url/counts');
                 setCounts(response.data);
                 setLoading(false);
             } catch (error) {

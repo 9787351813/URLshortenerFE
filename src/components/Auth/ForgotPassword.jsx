@@ -11,7 +11,7 @@ const ForgotPassword = () => {
         event.preventDefault();
         setError(null); // Clear previous errors
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/forgot-password', { email });
+            const response = await axios.post('https://urlshortenerbe-14.onrender.com/api/auth/forgot-password', { email });
             setMessage(response.data.message);
         } catch (err) {
             console.error('Error sending forgot password request:', err);

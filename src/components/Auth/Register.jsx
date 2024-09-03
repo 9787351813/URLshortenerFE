@@ -22,7 +22,7 @@ const Register = () => {
     console.log('Request Data:', requestData);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/register', requestData);
+      const response = await axios.post('https://urlshortenerbe-14.onrender.com/api/register', requestData);
       console.log('Registration successful:', response.data);
       navigate('/login');
     } catch (error) {

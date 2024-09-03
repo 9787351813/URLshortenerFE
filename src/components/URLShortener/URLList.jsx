@@ -9,7 +9,7 @@ const URLList = () => {
   useEffect(() => {
     const fetchUrls = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/url/urls');
+        const response = await axios.get('https://urlshortenerbe-14.onrender.com/api/url/urls');
         console.log('Response data:', response.data); // Debugging log
         if (Array.isArray(response.data)) {
           setUrls(response.data);
